@@ -9,7 +9,7 @@ import net.minecraft.world.level.block.state.StateDefinition;
 import org.jetbrains.annotations.Nullable;
 
 public class SweetheartSinkBlock extends HorizontalDirectionalBlock {
-    public static final MapCodec<SweatheartSinkBlock> CODEC = simpleCodec(SweetheartSinkBlock::new);
+    public static final MapCodec<SweetheartSinkBlock> CODEC = simpleCodec(SweetheartSinkBlock::new);
 
     public SweetheartSinkBlock(Properties properties) {
         super(properties);
@@ -21,7 +21,7 @@ public class SweetheartSinkBlock extends HorizontalDirectionalBlock {
     }
     @Override
     public @Nullable BlockState getStateForPlacement(BlockPlaceContext context) {
-        return this.defaultBlockState().setvalue(FACING, context.getHorizontalDirection().getOpposite());
+        return this.defaultBlockState().setValue(FACING, context.getHorizontalDirection().getOpposite());
     }
 
     @Override

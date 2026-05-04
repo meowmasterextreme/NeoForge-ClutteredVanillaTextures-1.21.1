@@ -16,9 +16,9 @@ public class ModCreativeModeTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, ClutteredVanillaTextures.MOD_ID);
 
     public static final Supplier<CreativeModeTab> CLUTTERED_VANILLA_TEXTURES_TAB= CREATIVE_MODE_TAB.register("cluttered_vanilla_textures_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.SWEETHEART_SINK.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.SWEETHEART_SINK.get()))
                     .title(Component.translatable("creativetab.clutteredvanillatextures.cluttered_vanilla_textures"))
-                    .displayItems(itemDisplayParameters, output -> {
+                    .displayItems((parameters, output) ->{
 
                         output.accept(ModBlocks.SWEETHEART_SINK);
 
