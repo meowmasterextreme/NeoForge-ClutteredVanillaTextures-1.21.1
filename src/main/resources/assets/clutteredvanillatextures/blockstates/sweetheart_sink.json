@@ -1,7 +1,7 @@
 {
   "variants": {
     "facing=north": {
-      "model": "clutteredvanillatextures:block/sweetheartsink"
+      "model": "clutteredvanillatextures:block/sweetheart_sink"
     },
     "facing=south": {
       "model": "clutteredvanillatextures:block/sweetheart_sink",
