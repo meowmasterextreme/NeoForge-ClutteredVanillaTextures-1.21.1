@@ -2,10 +2,13 @@ package com.meowmasterextreme.clutteredvanillatextures.block.custom;
 
 import com.meowmasterextreme.clutteredvanillatextures.block.util.ModBlockProperties;
 import com.meowmasterextreme.clutteredvanillatextures.block.util.SinkPart;
+import com.mojang.serialization.MapCodec;
+import com.mojang.serialization.codecs.RecordCodecBuilder;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.level.BlockGetter;
@@ -20,6 +23,7 @@ import net.minecraft.world.level.block.state.properties.EnumProperty;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.VoxelShape;
+import net.neoforged.neoforge.registries.DeferredRegister;
 
 import javax.annotation.Nullable;
 
@@ -35,7 +39,7 @@ public class DoubleSinkBlock extends HorizontalDirectionalBlock implements Block
     protected static final VoxelShape EAST_SHAPE = Block.box(13.0, 0.0, 13.0, 16.0, 3.0, 16.0);
 
     @Nullable
-    public static Direction getDoubleSinkOrientation(BlockGetter level, BlockPos pos) {
+    public static Direction getSinkOrientation(BlockGetter level, BlockPos pos) {
         BlockState blockstate = level.getBlockState(pos);
         return blockstate.getBlock() instanceof DoubleSinkBlock ? blockstate.getValue(FACING) : null;
     }
@@ -115,5 +119,10 @@ public class DoubleSinkBlock extends HorizontalDirectionalBlock implements Block
             level.blockUpdated(pos, Blocks.AIR);
             state.updateNeighbourShapes(level, pos, 3);
         }
+    }
+
+    @Override
+    protected MapCodec<? extends HorizontalDirectionalBlock> codec() {
+        return null;
     }
 }
