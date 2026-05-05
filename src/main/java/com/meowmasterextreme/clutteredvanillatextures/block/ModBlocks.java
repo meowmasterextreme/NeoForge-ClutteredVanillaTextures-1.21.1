@@ -3,14 +3,21 @@ package com.meowmasterextreme.clutteredvanillatextures.block;
 import com.meowmasterextreme.clutteredvanillatextures.ClutteredVanillaTextures;
 import com.meowmasterextreme.clutteredvanillatextures.block.custom.SweetheartSinkBlock;
 import com.meowmasterextreme.clutteredvanillatextures.item.ModItems;
+import net.minecraft.core.BlockPos;
+import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.BlockState;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
+import org.jetbrains.annotations.Nullable;
 
 import java.util.function.Supplier;
 
@@ -22,7 +29,6 @@ public class ModBlocks {
             () -> new SweetheartSinkBlock(BlockBehaviour.Properties.of()
                     .strength(2.0f, 3.0F).sound(SoundType.WOOD).ignitedByLava().noOcclusion()
             ));
-
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);

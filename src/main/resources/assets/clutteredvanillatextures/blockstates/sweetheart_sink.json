@@ -1,18 +1,18 @@
 {
   "variants": {
     "facing=north": {
-      "model": "clutteredvanillatextures:block/sweetheart_sink"
+      "model": "clutteredvanillatextures:block/sweetheart_sink_1"
     },
     "facing=west": {
-      "model": "clutteredvanillatextures:block/sweetheart_sink",
+      "model": "clutteredvanillatextures:block/sweetheart_sink_1",
       "y": 270
     },
     "facing=south": {
-      "model": "clutteredvanillatextures:block/sweetheart_sink",
+      "model": "clutteredvanillatextures:block/sweetheart_sink_1",
       "y": 180
     },
     "facing=east": {
-      "model": "clutteredvanillatextures:block/sweetheart_sink",
+      "model": "clutteredvanillatextures:block/sweetheart_sink_1",
       "y": 90
     }
   }
