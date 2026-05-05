@@ -1,9 +1,10 @@
 {
 	"credit": "Made with Blockbench",
 	"render_type": "minecraft:cutout",
+	"texture_size": [64, 64],
 	"textures": {
-		"2": "cluttered:block/sweetheart_sink",
-		"particle": "cluttered:block/sweetheart_sink"
+		"2": "clutteredvanillatextures:block/sweetheart_sink",
+		"particle": "clutteredvanillatextures:block/sweetheart_sink"
 	},
 	"elements": [
 		{
