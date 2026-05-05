@@ -3,6 +3,10 @@
     "facing=north": {
       "model": "clutteredvanillatextures:block/sweetheart_sink"
     },
+    "facing=west": {
+      "model": "clutteredvanillatextures:block/sweetheart_sink",
+      "y": 270
+    },
     "facing=south": {
       "model": "clutteredvanillatextures:block/sweetheart_sink",
       "y": 180
@@ -10,10 +14,6 @@
     "facing=east": {
       "model": "clutteredvanillatextures:block/sweetheart_sink",
       "y": 90
-    },
-    "facing=west": {
-      "model": "clutteredvanillatextures:block/sweetheart_sink",
-      "y": 270
     }
   }
 }
