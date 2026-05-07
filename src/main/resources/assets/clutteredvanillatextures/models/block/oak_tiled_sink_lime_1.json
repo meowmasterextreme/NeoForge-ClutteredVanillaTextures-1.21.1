@@ -3,8 +3,8 @@
   "render_type": "minecraft:cutout",
   "texture_size": [64, 64],
   "textures": {
-    "2": "clutteredvanillatextures:block/sweetheart_sink",
-    "particle": "clutteredvanillatextures:block/sweetheart_sink"
+    "2": "clutteredvanillatextures:block/oak_tiled_sink_lime",
+    "particle": "clutteredvanillatextures:block/oak_tiled_sink_lime"
   },
   "elements": [
     {

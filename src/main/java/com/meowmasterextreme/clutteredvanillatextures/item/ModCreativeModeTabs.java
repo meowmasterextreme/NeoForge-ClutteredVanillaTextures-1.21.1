@@ -16,11 +16,26 @@ public class ModCreativeModeTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, ClutteredVanillaTextures.MOD_ID);
 
     public static final Supplier<CreativeModeTab> CLUTTERED_VANILLA_TEXTURES_TAB= CREATIVE_MODE_TAB.register("cluttered_vanilla_textures_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.SWEETHEART_SINK.get()))
-                    .title(Component.translatable("creativetab.clutteredvanillatextures.cluttered_vanilla_textures"))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.OAK_TILED_SINK_RED.get()))
+                    .title(Component.translatable("Cluttered Vanilla Textures"))
                     .displayItems((parameters, output) ->{
 
-                        output.accept(ModBlocks.SWEETHEART_SINK);
+                        output.accept(ModBlocks.OAK_TILED_SINK_RED);
+                        output.accept(ModBlocks.OAK_TILED_SINK_ORANGE);
+                        output.accept(ModBlocks.OAK_TILED_SINK_YELLOW);
+                        output.accept(ModBlocks.OAK_TILED_SINK_LIME);
+                        output.accept(ModBlocks.OAK_TILED_SINK_GREEN);
+                        output.accept(ModBlocks.OAK_TILED_SINK_CYAN);
+                        output.accept(ModBlocks.OAK_TILED_SINK_LIGHT_BLUE);
+                        output.accept(ModBlocks.OAK_TILED_SINK_BLUE);
+                        output.accept(ModBlocks.OAK_TILED_SINK_PURPLE);
+                        output.accept(ModBlocks.OAK_TILED_SINK_MAGENTA);
+                        output.accept(ModBlocks.OAK_TILED_SINK_PINK);
+                        output.accept(ModBlocks.OAK_TILED_SINK_WHITE);
+                        output.accept(ModBlocks.OAK_TILED_SINK_LIGHT_GREY);
+                        output.accept(ModBlocks.OAK_TILED_SINK_GREY);
+                        output.accept(ModBlocks.OAK_TILED_SINK_BLACK);
+                        output.accept(ModBlocks.OAK_TILED_SINK_BROWN);
 
                     }).build());
 

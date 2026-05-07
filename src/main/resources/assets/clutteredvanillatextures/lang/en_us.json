@@ -1,3 +1,19 @@
 {
-  "item.clutteredvanillatextures.sweetheart_sink": "Sweetheart Sink"
+  "block.clutteredvanillatextures.oak_tiled_sink_red": "Oak Tiled Sink Red",
+  "block.clutteredvanillatextures.oak_tiled_sink_orange": "Oak Tiled Sink Orange",
+  "block.clutteredvanillatextures.oak_tiled_sink_yellow": "Oak Tiled Sink Yellow",
+  "block.clutteredvanillatextures.oak_tiled_sink_lime": "Oak Tiled Sink Lime",
+  "block.clutteredvanillatextures.oak_tiled_sink_green": "Oak Tiled Sink Green",
+  "block.clutteredvanillatextures.oak_tiled_sink_cyan": "Oak Tiled Sink Cyan",
+  "block.clutteredvanillatextures.oak_tiled_sink_light_blue": "Oak Tiled Sink Light Blue",
+  "block.clutteredvanillatextures.oak_tiled_sink_blue": "Oak Tiled Sink Blue",
+  "block.clutteredvanillatextures.oak_tiled_sink_purple": "Oak Tiled Sink Purple",
+  "block.clutteredvanillatextures.oak_tiled_sink_magenta": "Oak Tiled Sink Magenta",
+  "block.clutteredvanillatextures.oak_tiled_sink_pink": "Oak Tiled Sink Pink",
+  "block.clutteredvanillatextures.oak_tiled_sink_white": "Oak Tiled Sink White",
+  "block.clutteredvanillatextures.oak_tiled_sink_light_grey": "Oak Tiled Sink Light Grey",
+  "block.clutteredvanillatextures.oak_tiled_sink_grey": "Oak Tiled Sink Grey",
+  "block.clutteredvanillatextures.oak_tiled_sink_black": "Oak Tiled Sink Black",
+  "block.clutteredvanillatextures.oak_tiled_sink_brown": "Oak Tiled Sink Brown"
+
 }

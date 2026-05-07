@@ -29,7 +29,22 @@ public class ModBlocks {
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(ClutteredVanillaTextures.MOD_ID);
     public static final DeferredRegister.Items BLOCK_ITEMS = DeferredRegister.createItems("clutteredvanillatextures");
 
-    public static final DeferredBlock<Block> SWEETHEART_SINK;
+    public static final DeferredBlock<Block> OAK_TILED_SINK_RED;
+    public static final DeferredBlock<Block> OAK_TILED_SINK_ORANGE;
+    public static final DeferredBlock<Block> OAK_TILED_SINK_YELLOW;
+    public static final DeferredBlock<Block> OAK_TILED_SINK_LIME;
+    public static final DeferredBlock<Block> OAK_TILED_SINK_GREEN;
+    public static final DeferredBlock<Block> OAK_TILED_SINK_CYAN;
+    public static final DeferredBlock<Block> OAK_TILED_SINK_LIGHT_BLUE;
+    public static final DeferredBlock<Block> OAK_TILED_SINK_BLUE;
+    public static final DeferredBlock<Block> OAK_TILED_SINK_PURPLE;
+    public static final DeferredBlock<Block> OAK_TILED_SINK_MAGENTA;
+    public static final DeferredBlock<Block> OAK_TILED_SINK_PINK;
+    public static final DeferredBlock<Block> OAK_TILED_SINK_WHITE;
+    public static final DeferredBlock<Block> OAK_TILED_SINK_LIGHT_GREY;
+    public static final DeferredBlock<Block> OAK_TILED_SINK_GREY;
+    public static final DeferredBlock<Block> OAK_TILED_SINK_BLACK;
+    public static final DeferredBlock<Block> OAK_TILED_SINK_BROWN;
 
     public ModBlocks() {
     }
@@ -64,6 +79,22 @@ public class ModBlocks {
     }
 
     static {
-        SWEETHEART_SINK = registerBlock("sweetheart_sink", () -> new DoubleSinkBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS).mapColor(DyeColor.BROWN).noOcclusion()));
+        OAK_TILED_SINK_RED = registerBlock("oak_tiled_sink_red", () -> new DoubleSinkBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS).mapColor(DyeColor.BROWN).noOcclusion()));
+        OAK_TILED_SINK_ORANGE = registerBlock("oak_tiled_sink_orange", () -> new DoubleSinkBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS).mapColor(DyeColor.BROWN).noOcclusion()));
+        OAK_TILED_SINK_YELLOW = registerBlock("oak_tiled_sink_yellow", () -> new DoubleSinkBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS).mapColor(DyeColor.BROWN).noOcclusion()));
+        OAK_TILED_SINK_LIME = registerBlock("oak_tiled_sink_lime", () -> new DoubleSinkBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS).mapColor(DyeColor.BROWN).noOcclusion()));
+        OAK_TILED_SINK_GREEN = registerBlock("oak_tiled_sink_green", () -> new DoubleSinkBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS).mapColor(DyeColor.BROWN).noOcclusion()));
+        OAK_TILED_SINK_CYAN = registerBlock("oak_tiled_sink_cyan", () -> new DoubleSinkBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS).mapColor(DyeColor.BROWN).noOcclusion()));
+        OAK_TILED_SINK_LIGHT_BLUE = registerBlock("oak_tiled_sink_light_blue", () -> new DoubleSinkBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS).mapColor(DyeColor.BROWN).noOcclusion()));
+        OAK_TILED_SINK_BLUE = registerBlock("oak_tiled_sink_blue", () -> new DoubleSinkBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS).mapColor(DyeColor.BROWN).noOcclusion()));
+        OAK_TILED_SINK_PURPLE = registerBlock("oak_tiled_sink_purple", () -> new DoubleSinkBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS).mapColor(DyeColor.BROWN).noOcclusion()));
+        OAK_TILED_SINK_MAGENTA = registerBlock("oak_tiled_sink_magenta", () -> new DoubleSinkBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS).mapColor(DyeColor.BROWN).noOcclusion()));
+        OAK_TILED_SINK_PINK = registerBlock("oak_tiled_sink_pink", () -> new DoubleSinkBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS).mapColor(DyeColor.BROWN).noOcclusion()));
+        OAK_TILED_SINK_WHITE = registerBlock("oak_tiled_sink_white", () -> new DoubleSinkBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS).mapColor(DyeColor.BROWN).noOcclusion()));
+        OAK_TILED_SINK_LIGHT_GREY = registerBlock("oak_tiled_sink_light_grey", () -> new DoubleSinkBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS).mapColor(DyeColor.BROWN).noOcclusion()));
+        OAK_TILED_SINK_GREY = registerBlock("oak_tiled_sink_grey", () -> new DoubleSinkBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS).mapColor(DyeColor.BROWN).noOcclusion()));
+        OAK_TILED_SINK_BLACK = registerBlock("oak_tiled_sink_black", () -> new DoubleSinkBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS).mapColor(DyeColor.BROWN).noOcclusion()));
+        OAK_TILED_SINK_BROWN = registerBlock("oak_tiled_sink_brown", () -> new DoubleSinkBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS).mapColor(DyeColor.BROWN).noOcclusion()));
+
     }
 }
